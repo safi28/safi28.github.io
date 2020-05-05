@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+nav {
+  background: rgb(8, 8, 32, 0.8);
+  width: 50%;
+  margin: 0px auto;
+  position: relative;
+  top: 10px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 7px 15px;
+  margin: 0px auto;
+  font-size: 28x;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/movies-background.jpg");
+  margin: 0px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 10px;
+}
+header h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 160px;
+  text-shadow: 2px 2px 4px rgba(150, 150, 150, 1);
+}
+header p {
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  width: 27%;
+  margin: 0 auto;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+
+.card-movie-wrapper {
+  box-shadow: 0px 0px 100px 25px rgba(0, 0, 0, 0.2);
+  height: 440px;
+  position: relative;
+  width: 760px;
+  padding: 0px;
+  margin: 22px;
+  left: 10px;
+  bottom: 10px;
+  display: inline-block;
+}
+.card-movie__content {
+  left: 330px;
+  position: absolute;
+  top: 150px;
+}
+.card-movie__title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: -4px;
+  text-transform: uppercase;
+}
+.card-movie__description {
+  font-size: 18px;
+  max-width: 390px;
+  float: left;
+}
+.card-movie--looper {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/43525/looper.png");
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500%;
+  padding: 10px 20px 430px;
+}
+
+.card-movie--tron {
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/the-godfather-part-ii-1974-geek-n-rock.jpg");
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500%;
+  padding: 10px 20px 430px;
+}
+.card-movie--shining {
+  background-image: url("https://assets0.dostuffmedia.com/uploads/aws_asset/aws_asset/1200852/960dea53-1b91-417f-b3ac-0776c1711b22.jpg");
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500%;
+  padding: 10px 20px 430px;
+}
+
+.card-movie--alice {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Alice_in_wonderland_1951.jpg/1200px-Alice_in_wonderland_1951.jpg");
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500%;
+  padding: 10px 20px 430px;
+}
+
+footer {
+  background: #080820;
+  color: white;
+  padding: 50px;
+}
+
+footer article {
+  width: 30%;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+}
+#social {
+  margin-left: 15px;
+}
+#social i {
+  background: #83838f;
+  color: #080820;
+  border-radius: 50%;
+  margin: 8px;
+  padding: 15px;
+}
+
+footer div {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+footer div a {
+  color: wheat;
+  text-decoration: none;
+}
+.leo {
+  position: relative;
+  width: 100px;
+  height: 80px;
+}
+.warner {
+  position: relative;
+  width: 100px;
+  height: 80px;
+}
+.marvel {
+  position: relative;
+  width: 100px;
+  height: 80px;
+}
+.disney {
+  position: relative;
+  width: 100px;
+  height: 80px;
+}
