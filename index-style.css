@@ -62,6 +62,10 @@ button {
   border-radius: 12px;
   text-align: center;
 }
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 button i {
   color: #745cbc;
 }
